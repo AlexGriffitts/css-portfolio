@@ -10,20 +10,83 @@
 <body>
   <header>
     <h1>Alex Griffitts</h1>
-    <img src="" alt="image of me">
-    <ul>
-      put links here for about me, work, contact, use href and class to make it scroll down page to section
+    <ul class="links">
+
+      <li class="nav">
+        <a class="href" href="#aboutme">About Me</a>
+      </li>
+
+      <li class="nav">
+        <a class="href" href="#mywork">My Work</a>
+      </li>
+
+      <li class="nav">
+        <a class="href" href="#contactme">Contact Me</a>
+      </li>
 
     </ul>
+    
+    
+    
   </header>
+  <section class="selfpic">
+  <img class="portrait" src="./assets/images/portrait.jpg" width="300px" alt="image of me">
+  <img class="bokeh" src="./assets/images/bokeh.jpg"  alt="background scroll">
+</section>
+  <main>
+    <section class="about">
+      <aside class="aside">
+
+        <h2>About Me</h2>
+     
+      </aside>
+      <p class="aboutme">
+          I have been coding for an astounding two weeks, with a background in road striping services I have a leg up on the competition.  With numerous projects under my belt I 
+       can handle just about any task.  I enjoy snowboarding, hockey, hiking, hunting, gaming, and reading.  My large amount of time playing and modifying games has given me the general knowledge
+       of computer tools and apps that allows me to figure out most problems.  When I can't figure out a problem on my own I am experienced in using the great google to find an answer elsewhere.
+     </p>
+    </section>
+
+    <section id="mywork" class="work">
+      <aside class="aside">
+        <h2>My Work</h2>
+      </aside>
+       <div class="pics">
+         <div class="horiseonweb">
+
+         <a href="https://alexgriffitts.github.io/semantic-html/" target="_blank"> <img class="horiseonpic" src="./assets/images/webpagecapture.jpeg"  height="600" alt="Horiseon Project"></a>
+          <h3 id="horti" class="title">Horiseon Web Optimization</h3>
+         </div>
+
+         <div class="forestweb">
+         <a href="https://alexgriffitts.github.io/forest/" target="_blank"> <img id="forest" class="halfpage" src="./assets/images/forest.jpg" alt="picture of a forest."></a>
+          <h3 id="forti" class="title">Forest reclamation works webpage</h3>
+         </div>
+
+         <div class="fireweb">
+          <a href="https://alexgriffitts.github.io/firefight/" target="_blank"> <img id="fire" class="halfpage" src="./assets/images/firefighters.jpg" alt="fire fighting "></a>
+         <h3 id="firti" class="title">Emergency Fire Fighting Webpage</h3>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contactme" class="contact">
+      <aside class="aside">
+        <h2>Contact Me</h2>
+      </aside>
+      <section class="coninfo">
+        <a class= "href" href="mailto: 0alexgriffitts0@gmail.com"><h3 class="info">0alexgriffitts0@gmail.com</h3></a>
+        <h3 class="info">763-370-2663</h3>
+      </section>
+    </section>
 
 
 
 
 
+  </main>
 
 
-
-  
-</body>
+  </body>
 </html>
